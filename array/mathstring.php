@@ -42,7 +42,7 @@ print_r($fruits);
 echo "<br>";
 
 $joined = implode(" - ", $fruits);
-echo "implode(' - ', fruits) = $joined<br>"
+echo "implode(' - ', \fruits) = $joined<br>";
 
 
 echo "strrev('$str') = " . strrev($str) . "<br>";
